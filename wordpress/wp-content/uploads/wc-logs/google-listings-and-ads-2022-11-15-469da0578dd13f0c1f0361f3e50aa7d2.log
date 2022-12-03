@@ -1,0 +1,4 @@
+2022-11-15T10:08:44+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Coupon\CouponHelper::get_channel_visibility Channel visibility forced to "dont-sync-and-show" for visibility unknown (Post ID: 185).
+2022-11-15T10:11:38+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Coupon\CouponHelper::get_channel_visibility Channel visibility forced to "dont-sync-and-show" for visibility unknown (Post ID: 185).
+2022-11-15T18:34:28+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Coupon\CouponHelper::get_channel_visibility Channel visibility forced to "dont-sync-and-show" for visibility unknown (Post ID: 185).
+2022-11-15T18:38:41+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Coupon\CouponHelper::get_channel_visibility Channel visibility forced to "dont-sync-and-show" for visibility unknown (Post ID: 185).

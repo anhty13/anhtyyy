@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Jan-2022, 11:38:33
+    Author     : rajesh
+*/
+
+input , select {
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #d7dcdf !important;
+    background-color: #fff;
+    color: #495057;
+     height:36px;
+}
+
+textarea {
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #d7dcdf !important;
+    background-color: #fff;
+    color: #495057;
+}
+
+button {
+    border: 1px solid #d7dcdf !important;
+}
+/*body{
+    color: red !important;
+}*/
+.wt-decorator-customizer .customize-controls-close{
+    background: rgb(255, 255, 255);
+    width: 15%;
+    height: 100%;
+    border-top: none;
+}
+.wt-decorator-customizer .wt_band_section{
+    padding: 5px;
+    width: 85%;
+    text-align: center;
+    margin-left: 42px;
+    margin-right: 42px;
+    font-size: 20px;
+}
+/*.wt-decorator-customizer .wp-full-overlay-header{
+    height: 75px; 
+    line-height: 30px; 
+        background: #FFFFFF;
+}*/
+
+.wt-decorator-customizer .customize-footer-actionsl{
+    font-size: 20px;
+}
+
+.wt-decorator-customizer .wt_band_section img{
+   max-width: 150px !important;
+}
+.wt-decorator-customizer{
+    position: relative !important;
+}
+.wt-decorator-customizer .wp-full-overlay-footer{
+    display: none;
+}
+.wt-decorator-customizer .accordion-section-content{
+    background:#FFFFFF !important;
+}
+.wt-decorator-customizer #save{
+    height: 36px; 
+    width: 105px;
+}
+
+.wt-decorator-customizer #publish-settings{
+    float: unset; height: 36px; margin-left: 1px;
+}
+.wt-decorator-customizer .wp-full-overlay-sidebar-content{
+    margin-top: 30px;
+}
+
+.wt-decorator-customizer .month ,.wt-decorator-customizer .day,.wt-decorator-customizer .hour,.wt-decorator-customizer .year,.wt-decorator-customizer .hour,.wt-decorator-customizer .minute,.wt-decorator-customizer .meridian{
+    width: 65px !important;
+}
+
+
+.wt-decorator-customizer .wt-full-overlay-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+    z-index: 10;
+    margin: 0;
+    border-top: none;
+    box-shadow: none;
+    height: 75px; 
+    line-height: 30px; 
+    background: #FFFFFF;
+}
+
+.wt-decorator-customizer .customize-panel-back,.customize-section-back {
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.wt-decorator-customizer .btn_send_mail{  
+    background: #FFFFFF;
+}
+
+.wt-decorator-customizer .rp_decorator_reset{  
+    background: #FFFFFF !important;
+}
+
+.wt-decorator-customizer .btn_send_mail:hover {
+  background: #FFFFFF;
+}
+
+.wt-decorator-customizer #customize-info .customize-help-toggle{
+    display: none !important;
+}
+
+ @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+          
+.wt-decorator-customizer .wt_center_loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 7%;
+    bottom: 0;
+    left: 20%;
+    right: 0;
+    margin: auto;
+    z-index: 999999;
+    display: none;
+}
+.wt-decorator-customizer .wp-picker-container input[type=text].wp-color-picker{
+    width: 10em;
+    height: 31px;
+}
+.wt-decorator-customizer .wp-picker-container .wp-picker-open.button {
+    width: 50%;
+}
+
+.wt-decorator-customizer #customize-notifications-area {
+    display: none !important;
+}
+
+.wt-decorator-customizer .wp-full-overlay-sidebar-content {
+    top: 60px !important;
+}

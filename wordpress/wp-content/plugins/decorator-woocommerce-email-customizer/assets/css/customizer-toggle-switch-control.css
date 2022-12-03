@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Jan-2022, 11:38:33
+    Author     : rajesh
+*/
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+form {
+  margin: 50px;
+}
+
+.checkbox {
+  /*margin-bottom: 10px;*/
+}
+
+.checkbox label {
+  cursor: pointer;
+}
+
+/* Switch */
+/* ----------------- */
+.switch {
+}
+
+.checkbox.switch label {
+  padding-left: 0;
+}
+
+/* hide the default checkbox */
+input[type='checkbox'].switch-control {
+  position: absolute;
+  margin-left: -9999px;
+    margin-top: 0px;
+}
+
+input[type='checkbox'].switch-control ~ .switch-label {
+  position: relative;
+  display: inline-block;
+  min-height: 20px; /* required in case the label is empty */
+  padding-left: 60px;
+  line-height: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input[type='checkbox'].switch-control ~ .switch-label:before {
+  content: 'Off';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  background-color: #ddd;
+
+  color: #333;
+  font-size: 10px;
+  text-indent: 25px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0px rgba(255,255,255,0.8);
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.switch-alternative input[type='checkbox'].switch-control ~ .switch-label:before {
+  content: '\2716';   /* "x" character */
+  text-indent: 30px;
+}
+
+input[type='checkbox'].switch-control ~ .switch-label:after {
+  content: '-';
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  right: 2px;
+  bottom: 3px;
+  width: 20px;
+  height: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  border-radius: 2px;
+  color: #ccc;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+
+
+/* checked state */
+input[type='checkbox'].switch-control:checked ~ .switch-label:before {
+  content: 'ON';
+  background-color: #339900;
+  color: #fff;
+  text-indent: 3px;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+}
+
+input[type='checkbox'].switch-control:checked ~ .switch-label:after {
+  left: 28px;
+  right: 28px;
+}
+
+/* blue switch variation */
+.switch-alternative input[type='checkbox'].switch-control:checked ~ .switch-label:before {
+  content: '\2714';   /* "✔" character */
+  text-indent: 10px;
+}
+
+.switch-alternative input[type='checkbox'].switch-control:checked ~ .switch-label:before {
+  background-color: #3399cc;
+}

@@ -1,0 +1,67 @@
+2022-11-12T09:47:04+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_636f6b986ff53httplocalhostwordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/wordpress\/wp-admin\/"}
+
+2022-11-12T09:47:09+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 202211120947060102452431180E1F984F,202211120947060102452431180E1F984F
+x-tt-trace-host: 01ca59c2079e1986c2ea2459036901b94545fcbb2fc4bb1aeabca1cef64bbba3b3a7e257e2f6305cf6cc4c69a36872ec371d54ef990edb0ebfa64eccbe7619d86f5c142e2c979ac60ad801b3173fa8ad817423d425b8783b611c207e6c16764653
+Content-Encoding: gzip
+Content-Length: 208
+X-Origin-Response-Time: 4623,23.40.40.191
+X-Akamai-Request-ID: 4139f02e.12830b21
+Date: Sat, 12 Nov 2022 09:47:10 GMT
+X-Cache: TCP_MISS from a113-171-12-175.deploy.akamaitechnologies.com (AkamaiGHost/10.10.1-44825277) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-40-40-191.deploy.akamaitechnologies.com (AkamaiGHost/10.10.1-44825277) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=32, origin; dur=4622
+Server-Timing: inner; dur=4620
+X-Parent-Response-Time: 4651,113.171.12.175
+
+{"code":0,"msg":"ok","data":{"app_secret":"721a6f9c0f5e5c239cb4af210ec7739b5a379009","app_id":"7165063841863172098","external_data_key":"3232f961-5b71-412d-bd71-6ae9e7f64095","redirect_uri":"http:\/\/localhost\/wordpress\/wp-admin\/"}}
+
+2022-11-12T09:55:49+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T09:57:19+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T09:59:19+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T10:01:20+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T10:06:22+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T10:06:47+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T10:21:47+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T10:23:11+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T10:24:56+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2022-11-12T10:24:56+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2022-11-12T10:25:06+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-12T10:25:06+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-12T10:26:16+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T10:57:50+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:02:07+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:10:19+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2022-11-12T11:10:19+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2022-11-12T11:15:32+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:16:29+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:16:41+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:18:42+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:20:42+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:21:51+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:22:42+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:23:14+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:24:43+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:26:45+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:28:18+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:28:18+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:29:45+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:31:44+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:35:47+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:36:03+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:38:35+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:39:57+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:44:30+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:45:23+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:46:25+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T11:48:07+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2022-11-12T11:48:07+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"

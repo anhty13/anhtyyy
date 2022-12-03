@@ -1,0 +1,299 @@
+2022-11-13T06:20:46+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T06:21:29+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T06:25:46+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T06:27:08+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T06:32:07+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T06:35:57+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T06:36:57+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T06:37:39+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T06:38:09+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T06:39:10+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T07:14:33+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T07:29:23+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+
+2022-11-13T07:29:27+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1550): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1612): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(67): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'no-sidebar')
+#12 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\flatsome\woocommerce\single-product-reviews.php on line 107
+

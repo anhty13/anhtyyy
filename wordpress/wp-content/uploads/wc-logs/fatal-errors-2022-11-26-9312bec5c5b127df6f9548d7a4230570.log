@@ -1,0 +1,6 @@
+2022-11-26T16:04:22+00:00 CRITICAL Uncaught Error: Attempt to assign property "post_content" on null in C:\xampp\htdocs\wordpress\wp-admin\includes\post.php:748
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\post-new.php(66): get_default_post_to_edit('product', true)
+#1 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\post.php on line 748
+
